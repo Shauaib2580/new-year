@@ -1,0 +1,64 @@
+/* common style */
+header{
+  font-family: 'Merriweather', serif;
+}
+/* header section Style */
+.font{
+  color: #fff;
+  position:absolute;
+  text-align:center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.fonts1{
+  font-size: 32px;
+}
+.fonts2{
+  font-size: 72px;
+  max-width: 635px;
+}
+div >ul {
+  list-style: none;
+  text-align: center;
+}
+.background{
+  position: relative;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1320px;
+  height: 600px;
+  color: rgb(255, 255, 255);
+  display: block;
+  margin: auto;
+  flex-shrink: 0;
+  margin-top: 50px;
+  overflow: hidden;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+main{
+  font-family: 'Inter', sans-serif;
+}
+.off{
+  color: #F00;
+  text-align: center;
+  font-size: 80px;
+  margin: 0;
+  padding-top: 80px;
+}
+.deals{
+  color: #F00;
+  text-align: center;
+  margin: 0;
+  font-size: 20px;
+  padding-top: 16px;
+}
+.catagory{
+  color: #070211;
+  margin: 0;
+  text-align: center;
+  font-size: 40px;
+  padding-top: 6px;
+}
