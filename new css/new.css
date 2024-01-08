@@ -129,3 +129,33 @@ main{
   padding: 15px 30px;
   margin-top: 10px;
 }
+.gifts{
+  color: #F00;
+  padding-top: 50px;
+}
+.port-dis{
+   max-width: 896px;
+   padding-bottom: 20px;
+}
+.portfolio{
+  color: #070211;
+  margin: 0;
+  font-size: 40px;
+  padding-top: 6px;
+}
+.images{
+   display: flex;
+  flex-wrap: wrap;
+  columns: 3; 
+  column-gap: 5px;
+  row-gap: 5px; 
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+}
+.imgs:hover{
+  opacity: 0.7;
+}
+.awsm{
+  padding-left: 100px;
+}
