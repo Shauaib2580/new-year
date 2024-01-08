@@ -192,3 +192,36 @@ main{
   padding: 15px 30px;
   border: 0;
 }
+/* footer section */
+.foot{
+  background-color: #070211;
+  margin: 120px auto 20px;
+  padding-bottom: 20px;
+  width: 1600px;
+  
+}
+.foot-top{
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  padding-top: 68px;
+  list-style-type: none;
+  max-width: 900px;
+}
+.phn-web{
+  list-style-type: none;
+}
+hr{
+    width: 80%;  
+    height: 1px;  
+    border: none; 
+    background-color: #7a7777;
+    margin-top: 30px; 
+    margin-bottom: 30px; 
+}
+.foot-img{
+  display: flex;
+  gap: 15px;
+  margin: 0 auto;
+}
