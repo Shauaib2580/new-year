@@ -89,7 +89,7 @@ main{
   justify-content: center;
   background-repeat: no-repeat;
   background-position: center;
-  
+  margin: 0 auto;
 }
 .mid-discription{
   max-width: 697px;
@@ -107,5 +107,25 @@ main{
 /* place section */
 .place{
   background-color: rgb(255, 218, 189);
-  margin-top: 0;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1320px;
+  border-radius: 16px;
+  flex-shrink: 0;
+  padding: 120px;
+}
+.pdt{
+  color: #F00;
+  gap: 10px;
+}
+.btn2{
+  border-radius: 5px;
+  background:#F00;
+  border: 0;
+  color: antiquewhite;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 15px 30px;
+  margin-top: 10px;
 }
