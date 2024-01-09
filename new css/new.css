@@ -191,37 +191,44 @@ main{
   background: rgb(255, 255, 255);
   padding: 15px 30px;
   border: 0;
+  width: 400px;
 }
 /* footer section */
+footer{
+  font-family: 'Inter', sans-serif;
+}
 .foot{
   background-color: #070211;
   margin: 120px auto 20px;
   padding-bottom: 20px;
   width: 1600px;
-  
+}
+.address{
+  text-align: left;
 }
 .foot-top{
   color: #fff;
   display: flex;
   justify-content: space-between;
-  align-items: center; 
+  padding-left: 280px;
   padding-top: 68px;
   list-style-type: none;
-  max-width: 900px;
+  max-width: 1080px;
 }
 .phn-web{
   list-style-type: none;
 }
 hr{
-    width: 80%;  
+    max-width: 1320px;  
     height: 1px;  
     border: none; 
     background-color: #7a7777;
     margin-top: 30px; 
     margin-bottom: 30px; 
+    opacity: 50%;
 }
 .foot-img{
   display: flex;
   gap: 15px;
-  margin: 0 auto;
+  padding-left: 650px;
 }
