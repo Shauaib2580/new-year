@@ -136,15 +136,18 @@ main{
   opacity: 0.7;
 }
 .coming-section{
+  background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+  text-align: center;
   margin: 0 auto;
+  max-width: 1080px;
+  border-radius: 16px;
+  padding: 120px;
 }
 .coming-soon{
   display: flex;
   list-style: none;
-  justify-content: space-between;
-  margin-top: 120px;
-  align-items: center;
-  max-width: 1600px;
+  /* justify-content: space-between;
+  align-items: center; */
 }
 .coming-1{
   list-style: none;
@@ -157,6 +160,19 @@ main{
   font-size: 20px;
   font-weight: 400;
   line-height: 32px;
+}
+/* holiday section */
+.holiday-offer{
+  max-width: 1080px;
+  margin: 0 auto;
+}
+.holiday{
+  color: #F00;
+}
+.offer{
+  font-size: 72px;
+  font-weight: 900;
+  padding: 30px;
 }
 #mid-img{
   width: 364.844px;
