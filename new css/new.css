@@ -169,6 +169,21 @@ main{
 .holiday{
   color: #F00;
 }
+.discount{
+  background: url('../photo/Rectangle\ 1.png'), lightgray -59.98px 0px / 151.553% 100% no-repeat;;
+  background-repeat: no-repeat;
+  border-radius: 16px 16px 0px 0px;
+  width: 429px;
+  height: 433px;
+}
+.solid-color{
+  width: 1320px;
+  height: 229px;
+  flex-shrink: 0;
+  border-radius: 16px 0px 16px 16px;
+  background: #F00;
+  align-items: center;
+}
 .offer{
   font-size: 72px;
   font-weight: 900;
