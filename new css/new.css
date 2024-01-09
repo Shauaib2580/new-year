@@ -109,7 +109,7 @@ main{
 }
 /* place section */
 .place{
-  background-color: rgb(255, 218, 189);
+  background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
   text-align: center;
   margin: 0 auto;
   max-width: 1080px;
@@ -134,6 +134,58 @@ main{
 }
 .btn2:hover{
   opacity: 0.7;
+}
+.coming-section{
+  margin: 0 auto;
+}
+.coming-soon{
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  margin-top: 120px;
+  align-items: center;
+  max-width: 1600px;
+}
+.coming-1{
+  list-style: none;
+  text-align: left;
+  max-width: 393px;
+  align-content: center;
+}
+.coming-content{
+  color: rgba(7, 2, 17, 0.60);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+#mid-img{
+  width: 364.844px;
+  height: 364.844px;
+  flex-shrink: 0;
+  border-radius: 364.844px;
+}
+.ellipse{
+  border-radius: 463px;
+  border: 15px solid #F00;
+  padding: 10px;
+}
+.coming-2{
+  list-style: none;
+  align-content: center;
+  text-align: left;
+  padding-top: 50px;
+  max-width: 276px;
+}
+.twenty-4{
+  color: #F00;
+  font-weight: 700;
+  font-size: 48px;
+}
+.coming-content2{
+  color: rgba(7, 2, 17, 0.60);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
 }
 .gifts{
   color: #F00;
@@ -162,6 +214,15 @@ main{
 }
 .awsm{
   padding-left: 100px;
+}
+.place2{
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1080px;
+  flex-shrink: 0;
+  padding: 120px;
 }
 .subscribe{
   color: #070211;
